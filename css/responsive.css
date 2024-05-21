@@ -1,0 +1,868 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+      overflow-x: hidden; 
+    }
+    /* banner section */
+    .banner .text h1 {
+        font-size: 41px;
+        line-height: 49px;
+    }
+    .banner .text {
+      padding: 70px 0;
+    }
+    .banner .woman img{
+        width: 90% !important;
+    }
+    .about .work img{
+        width: 100% !important;
+    }
+
+    .about .inner {
+      padding: 53px 0;
+      align-items: center;
+  }
+
+  .number {
+    height: 95vh;
+}
+.main {
+  background-size: cover;
+  width: 216px;
+  height: 264px;
+}
+.action {
+  height: 65vh;
+  text-align: center;
+}
+.key .left img {
+  width: 420px;
+  margin-left: -30px;
+}
+.faq .inner .left img {
+  width: 460px;
+}
+
+
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #999999;
+      margin: 0;
+    }
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #f85c1f;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+    }
+  
+    .banner .text h1 {
+      font-size: 30px;
+      line-height: 38px;
+  }
+ .container {
+   } 
+  .banner .text {
+    padding: 70px 0;
+  }
+  .banner .woman img {
+    width: 71% !important;
+    margin-top: 40px;
+    margin-left: -85px;
+}
+
+.about {
+  text-align: center;
+  padding: 30px 0 !important;
+}
+  .about .work img{
+      width: 70% !important;
+  }
+  .about .inner p {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about .inner h4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 80%;
+  font-size: 30px;
+ 
+  margin-bottom: 14px;
+}
+
+  .about .inner {
+    padding: 53px 0;
+    align-items: center;
+}
+.about .inner h4 {
+  margin-top: 25px;
+  font-size: 33px;
+  color: #f85c1f;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.number .box-inner h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.number {
+  height: 90vh;
+  overflow: hidden;
+}
+.main {
+  background-size: cover;
+  width: 310px;
+  height: 264px;
+}
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.action {
+height: 56vh;
+text-align: center;
+}
+.action p {
+  color: white;
+  margin-bottom: 20px;
+  width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.key .left img {
+width: 420px;
+margin-left: -30px;
+}
+.faq {
+  padding: 60px 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+.faq .inner .left img {
+width: 85%;
+}
+.faq-container{
+  margin-top: 40px;
+text-align: left !important;
+}
+.faq-question {
+  font-size: 15px;  
+  }
+  .contact {
+  padding-top:0 ;
+  padding-bottom: 60px;
+}
+.contact .inner .left img {
+  display: none;
+}
+footer h5 {
+  margin-bottom: 13px;
+  font-size: 18px;
+}
+footer p {
+  width: 100%;
+}
+.copy span {
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+.copy p {
+  font-size: 12px;
+  color: rgb(184, 184, 184);
+}
+footer .icon i {
+  background-color: #e67503 !important;
+  margin-top: 6px;
+  margin-right: 12px;
+  font-size: 17px;
+  border-radius: 10%;
+  padding: 9px 12px;
+  transition: 0.5s !important;
+}
+
+
+
+  }
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .container{
+      padding: 0px 20px;
+    }
+span{
+  font-size: 12px;
+}
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #999999;
+      margin: 0;
+    }
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #f85c1f;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+    }
+    .sub-menu .one i {
+      font-size: 12px;
+      margin-right: 7px;
+  }
+  .sub-menu .left-content {
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-menu .one p {
+  /* font-weight: 500; */
+  font-size: 10px;
+  color: white;
+}
+.sub-menu .right {
+  display: none;
+  justify-content: end;
+}
+header .nav-item .nav-link {
+  color: #04419d !important;
+  font-size: 15px;
+  position: relative;
+  font-weight: 400;
+  margin-right: 10px;
+}
+header nav img {
+  width: 160px !important;
+}
+.banner{
+  text-align: center;
+  height: 80vh;
+}
+    .banner .text h1 {
+      font-size: 26px;
+      line-height: 34px;
+  }
+  .banner .text {
+    padding: 70px 0;
+  }
+  .banner .text p {
+    width: 90%;
+    color: #fff;
+    margin: 14px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .banner .woman img {
+    display: none;
+}
+
+.about {
+  text-align: center;
+  padding: 30px 0 !important;
+}
+  .about .work img{
+      width: 92% !important;
+  }
+  .about .inner p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about  h4 span{ 
+  font-size: 29px;
+  font-weight: 800;
+
+}
+.about .inner h4 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  width: 85%;
+  font-size: 27px;
+  margin-bottom: 14px;
+}
+
+  .about .inner {
+    padding: 53px 0;
+    align-items: center;
+}
+.about .inner h4 {
+  margin-top: 25px;
+  font-size: 33px;
+  color: #f85c1f;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.services .box1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 27px;
+  box-shadow: rgba(112, 112, 117, 0.2) 0px 7px 29px 0px;
+  transition: 0.4s !important;
+}
+.services .icon {
+  font-size: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 106, 1) 35%, rgba(6, 123, 147, 1) 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  /* color: red; */
+}
+.services .box1 i {
+  font-size: 34px;
+  color: white;
+  margin-top: 13px;}
+.number .box-inner h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.number {
+  height: auto;
+  /* overflow-x: hidden; */
+}
+.number .box-inner {
+  width: 90%;
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(0, 0, 106, 0.5) 35%, rgba(6, 123, 147, 0.5) 100%);
+  text-align: center;
+  padding: 28px 0px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.number .box-inner i {
+  font-size: 36px;
+  margin-bottom: 13px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.number .box-inner h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.number .box-inner h1 {
+  font-size: 28px;
+  color: #f85c1f;
+  font-weight: 600;
+}
+.main {
+  background-size: cover;
+  width: 380px;
+  height: 264px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.action {
+height: auto;
+text-align: center;
+}
+.action p {
+  color: white;
+  margin-bottom: 20px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.key .left img {
+width: 420px;
+margin-left: -30px;
+}
+.mixbtn button, input, optgroup, select, textarea {
+  margin-right: 15px !important;
+  padding: 6px 17px;
+  margin-bottom: 30px !important;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 106, 0.9864320728291317) 100%);
+  border: none !important;
+  color: white;
+  font-size: 14px;
+}
+.faq {
+  padding: 60px 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+.faq .inner .left img {
+width: 85%;
+}
+.faq-container{
+  margin-top: 40px;
+text-align: left !important;
+}
+.faq-question {
+  font-size: 15px;  
+  }
+  .contact {
+  padding-top:0 ;
+  padding-bottom: 60px;
+}
+.contact .inner .left img {
+  display: none;
+}
+.contact-form-container h1 {
+  font-size: 24px;
+  color: #f85c1f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer h5 {
+  margin-top: 25px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 500;
+}
+footer .f-menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+footer p {
+  width: 100%;
+}
+.copy span {
+  font-size: 13px;
+  font-family: 'Montserrat';
+}
+.copy p {
+  font-size: 10px;
+  color: rgb(184, 184, 184);
+}
+footer .icon i {
+  background-color: #e67503 !important;
+  margin-top: 6px;
+  margin-right: 12px;
+  font-size: 17px;
+  border-radius: 10%;
+  padding: 9px 12px;
+  transition: 0.5s !important;
+}
+}
+
+    
+ 
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .btn {
+      font-size: 14px;
+      padding: 8px 18px;
+      color: rgb(255, 255, 255);
+      background-color: #ff7900;
+      border: 1px solid #ff7900;
+      border-radius: 4px;
+      margin-right: 15px;
+      transition: 0.4s;
+    }
+    .btn:hover {
+      background-color: #38a9ff;
+      border: 1px solid #38a9ff;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+    .btn2 {
+      margin-top: 25px;
+      font-size: 14px;
+      padding: 10px 20px 11px 20px;
+      color: rgb(255, 255, 255);
+      border: 1px solid #ebebeb;
+      border-radius: 4px;
+      display: inline;
+      transition: 0.5s;
+    }
+    a {
+      font-size: 13px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline;
+    }
+    .container{
+      padding: 0px 30px;
+    }
+span{
+  font-size: 12px;
+}
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #999999;
+      margin: 0;
+    }
+    h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: #f85c1f;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+    }
+    .sub-menu .one i {
+      font-size: 12px;
+      margin-right: 7px;
+  }
+  .sub-menu .left-content {
+    margin-right: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-menu .one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+  flex-direction: column;}
+
+.sub-menu .one p {
+  /* font-weight: 500; */
+  font-size: 8px;
+  color: white;
+}
+.sub-menu .right {
+  display: none;
+  justify-content: end;
+}
+header .nav-item .nav-link {
+  color: #04419d !important;
+  font-size: 15px;
+  position: relative;
+  font-weight: 400;
+  margin-right: 10px;
+}
+header nav img {
+  width: 144px !important;
+}
+.banner{
+  text-align: center;
+  height: 60vh;
+  display: flex;
+}
+    .banner .text h1 {
+      font-size: 28px;
+      line-height: 37px;
+  }
+ 
+  .banner .text p {
+    width: 100%;
+    color: #fff;
+    margin: 14px 0;
+
+}
+  .banner .woman img {
+    display: none;
+}
+
+.about {
+  text-align: center;
+  padding: 30px 0 !important;
+}
+  .about .work img{
+      width: 92% !important;
+  }
+  .about .inner p {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about  h4 span{ 
+  font-size: 27px;
+  font-weight: 800;
+
+}
+.about .inner h4 {
+  margin-top: 25px;
+  font-size: 27px;
+  color: #f85c1f;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+  .about .inner {
+    padding: 53px 0;
+    align-items: center;
+}
+.about .inner h4 {
+  margin-top: 25px;
+  font-size: 33px;
+  color: #f85c1f;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.services .box1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 27px;
+  box-shadow: rgba(112, 112, 117, 0.2) 0px 7px 29px 0px;
+  transition: 0.4s !important;
+}
+.services .icon {
+  font-size: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 106, 1) 35%, rgba(6, 123, 147, 1) 100%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  /* color: red; */
+}
+.services .box1 i {
+  font-size: 34px;
+  color: white;
+  margin-top: 13px;}
+.number .box-inner h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.number {
+  height: auto;
+  /* overflow-x: hidden; */
+}
+.number .box-inner {
+  width: 90%;
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(0, 0, 106, 0.5) 35%, rgba(6, 123, 147, 0.5) 100%);
+  text-align: center;
+  padding: 28px 0px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.number .box-inner i {
+  font-size: 36px;
+  margin-bottom: 13px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.number .box-inner h5 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.number .box-inner h1 {
+  font-size: 28px;
+  color: #f85c1f;
+  font-weight: 600;
+}
+.main {
+  background-size: cover;
+  width: 302px;
+  height: 264px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.action {
+height: auto;
+text-align: center;
+}
+.action p {
+  color: white;
+  margin-bottom: 20px;
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.action h3 {
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.footer img {
+  width: 93px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.key .left img {
+width: 350px;
+margin-left: -30px;
+}
+.project .img-fluid {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+  margin-right: -18px;
+}
+.mixbtn button, input, optgroup, select, textarea {
+  margin-right: 11px !important;
+  padding: 5px 8px;
+  /* margin-bottom: 30px !important; */
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 106, 0.9864320728291317) 100%);
+  border: none !important;
+  color: white;
+  font-size: 12px;
+}
+.faq {
+  padding: 60px 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+.faq .inner .left img {
+width: 85%;
+}
+.faq-container{
+  margin-top: 40px;
+text-align: left !important;
+}
+.faq-question {
+  font-size: 12px;
+}
+  .contact {
+  padding-top:0 ;
+  padding-bottom: 60px;
+}
+.contact .inner .left img {
+  display: none;
+}
+.form-group label {
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-form-container h1 {
+  font-size: 24px;
+  color: #f85c1f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer h5 {
+  margin-top: 25px;
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .f-menu {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+}
+footer .f-menu a {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+footer p {
+  width: 100%;
+}
+.copy span {
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+.copy p {
+  font-size: 8px;
+  color: rgb(184, 184, 184);
+}
+footer .icon i {
+  background-color: #e67503 !important;
+  margin-top: 6px;
+  margin-right: 12px;
+  font-size: 16px;
+  border-radius: 10%;
+  padding: 10px 13px;
+  transition: 0.5s !important;
+}
+footer .social p {
+  color: white;
+  margin: 0;
+  width: 100%;
+  font-size: 14px;
+  margin-left: 9px;
+  font-family: 'Montserrat';
+}
+    
+  }
